@@ -25,7 +25,9 @@ export default function LandingFooter() {
           <Link href="/ai-terms">AI利用規約</Link>
           <Link href="/legal">特定商取引法</Link>
         </div>
-        <p className={styles.copyright}>&copy; 2025 Founders Direct. All rights reserved.</p>
+        <p className={styles.copyright}>
+          &copy; 2025 Founders Direct / <a href="https://www.5dmgmt.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>五次元経営株式会社</a>. All rights reserved.
+        </p>
         <p className={styles.secretLink}>
           <a href="https://www.foundersdirect.jp/lp.html">自分で創りたい創業者はこちら</a>
         </p>
